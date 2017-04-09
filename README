@@ -13,6 +13,9 @@ $sudo insmod ./dor.ko
 To check the partitions 
 $ls -l /dev/DiskonRAM*
 
+To write and read from the partition, enter into root mode
+$sudo su
+
 TO write into a partition ( eg. DiskonRAM1)
 $cat > /dev/DiskonRAM1
 
