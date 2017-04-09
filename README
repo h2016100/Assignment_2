@@ -7,8 +7,8 @@ References : LDD3 sbull example
 	   : http://opensourceforu.com/2012/02/device-drivers-disk-on-ram-block-drivers/
 
 Steps to make the driver
-- make
-- sudo insmod ./dor.ko
+$make
+$sudo insmod ./dor.ko
 
 To check the partitions 
 $ls -l /dev/DiskonRAM*
