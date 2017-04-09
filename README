@@ -31,6 +31,8 @@ $mkfs.ext3 /dev/DiskonRAM2
 You can also use other commands for the same
 
 You can now mount the partition using /mnt , write data in it and then umount it using umount.
+$mount -t ext3 /dev/DiskonRAM2 /mnt/
+$mount 
 
 To remove the kernel module
 $sudo rmmod dor
