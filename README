@@ -1,6 +1,6 @@
 *****************Disk on RAM************************************************
 
-This is a block driver which creates 512 bytes of RAM as block driver and reads and writes to it from the terminal.
+This is a block driver which creates 512 KB of RAM as block driver and reads and writes to it from the terminal.
 The 512 bytes of RAM allocated is partitioned into 3 primary and 3 logical partitions.
 
 References : LDD3 sbull example 
